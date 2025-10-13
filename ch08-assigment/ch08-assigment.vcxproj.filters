@@ -21,5 +21,17 @@
     <ClCompile Include="Assigment02.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Assigment05.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Assigment06.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Assigment11.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Assigment15.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
