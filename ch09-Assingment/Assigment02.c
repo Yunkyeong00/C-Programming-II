@@ -14,7 +14,7 @@ int main()
 void StrRemove()
 {
 	int j = 0;
-	printf("문자열? ");
+	printf("문자열?: ");
 	char str[70];
 	gets_s(str, sizeof(str));
 
