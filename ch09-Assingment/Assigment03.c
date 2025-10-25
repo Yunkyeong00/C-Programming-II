@@ -1,7 +1,16 @@
 #include <stdio.h>
 #include <ctype.h>
 
+void StrChange();
+
 int main()
+{
+	StrChange();
+
+	return 0;
+}
+
+void StrChange()
 {
 	int i = 0;
 	printf("¹®ÀÚ¿­? ");
@@ -12,14 +21,14 @@ int main()
 	{
 		if (islower(str[i]))
 		{
-			str[i]=toupper(str[i]);
+			str[i] = toupper(str[i]);
 		}
 		else
 		{
-			str[i]=tolower(str[i]);
-			
+			str[i] = tolower(str[i]);
+
 		}
 	}
-	str[i]='\0';
+	str[i] = '\0';
 	printf("%s", str);
 }

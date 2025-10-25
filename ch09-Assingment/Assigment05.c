@@ -9,6 +9,8 @@ int main()
 {
 	input();
 
+	return 0;
+
 }
 
 void input()
