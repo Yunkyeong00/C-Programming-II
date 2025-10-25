@@ -1,4 +1,4 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 #include <ctype.h>
 
 void StrChange();
@@ -13,7 +13,7 @@ int main()
 void StrChange()
 {
 	int i = 0;
-	printf("¹®ÀÚ¿­? ");
+	printf("ë¬¸ìì—´?: ");
 	char str[70];
 	gets_s(str, sizeof(str));
 
