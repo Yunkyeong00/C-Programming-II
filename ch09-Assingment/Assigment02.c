@@ -1,4 +1,4 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 #include <string.h>
 
 int main()
@@ -14,11 +14,11 @@ int main()
 void StrRemove()
 {
 	int j = 0;
-	printf("¹®ÀÚ¿­?: ");
+	printf("ë¬¸ìì—´? : ");
 	char str[70];
 	gets_s(str, sizeof(str));
 
-	printf("°ø¹é¹®ÀÚ Á¦°ÅÈÄ: ");
+	printf("ê³µë°±ë¬¸ì ì œê±°í›„: ");
 
 	for (int i = 0; str[i] != '\0'; i++)
 	{
