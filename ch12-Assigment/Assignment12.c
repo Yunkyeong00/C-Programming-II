@@ -1,4 +1,12 @@
-﻿#define _CRT_SECURE_NO_WARNINGS
+﻿/*
+학번:202511238
+이름:조윤경
+프로그램 명:11번 프로그램에 연락처 검색이 실패하는 경우 새로운 연락처를 추가하는 기능을 구현하시오. 또한, 프로그램이 종료될 때 CONTACT 구조체의 내용을 텍스트 파일로 저장하도록 처리하시오.
+
+날짜:2025.11.11
+*/
+
+#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include<string.h>
 

@@ -1,4 +1,13 @@
-﻿#define _CRT_SECURE_NO_WARNINGS
+﻿/*
+학번:202511238
+이름:조윤경
+프로그램 명:CONTACT 구조체를 이용한 연락처 관리 프로그램에 텍스트 파일에서 연락처를 로딩하는 기능을 추가한다. 
+            텍스트 파일에 정해진 형식으로 연락처를 저장하고 이 파일을 읽어서 CONTACT 구조체 배열을 생성하도록 프로그램을 작성하시오. CONTACT 구조체 배열은 동적 메모리에 생성한다.
+
+날짜:2025.11.09
+*/
+
+#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include<string.h>
 

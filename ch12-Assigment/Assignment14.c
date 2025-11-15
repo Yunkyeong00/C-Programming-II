@@ -1,4 +1,12 @@
-﻿#define _CRT_SECURE_NO_WARNINGS
+﻿/*
+학번:202511238
+이름:조윤경
+프로그램 명:13번 프로그램을 실행해서 크기가 다른 2진 파일을 2개 생성한 
+            다음 두 파일을 읽어서 하나의 int배열을 생성한 다음 정렬 후에 다시 2진 파일로 저장하는 프로그램을 작성하시오
+날짜:2025.11.15
+*/
+
+#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <stdlib.h>
 
