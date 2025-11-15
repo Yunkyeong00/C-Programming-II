@@ -1,3 +1,10 @@
+ï»¿/*
+í•™ë²ˆ:202511238
+ì´ë¦„:ì¡°ìœ¤ê²½
+í”„ë¡œê·¸ë¨ ëª…:
+ë‚ ì§œ:
+
+*/
 #include <stdio.h>
 #include <string.h>
 
@@ -19,12 +26,12 @@ void input()
     int menu;
 
     while (1) {
-        printf("\n[ 0.Á¾·á  1.Ãß°¡  2.¼öÁ¤  3.¸ñ·Ï ] ¼±ÅÃ: ");
+        printf("\n[ 0.ì¢…ë£Œ  1.ì¶”ê°€  2.ìˆ˜ì •  3.ëª©ë¡ ] ì„ íƒ: ");
         scanf("%d", &menu);
         getchar();
 
         if (menu == 0) {
-            printf("ÇÁ·Î±×·¥À» Á¾·áÇÕ´Ï´Ù.\n");
+            printf("í”„ë¡œê·¸ë¨ì„ ì¢…ë£Œí•©ë‹ˆë‹¤.\n");
             break;
         }
         else if (menu == 1) {
@@ -37,7 +44,7 @@ void input()
             printSongs(songs, count);
         }
         else {
-            printf("Àß¸øµÈ ÀÔ·ÂÀÔ´Ï´Ù.\n");
+            printf("ì˜ëª»ëœ ì…ë ¥ì…ë‹ˆë‹¤.\n");
         }
     }
 }
@@ -45,46 +52,46 @@ void input()
 void addSong(char songs[][40], int* count)
 {
     if (*count >= 20) {
-        printf("´õ ÀÌ»ó Ãß°¡ÇÒ ¼ö ¾ø½À´Ï´Ù.\n");
+        printf("ë” ì´ìƒ ì¶”ê°€í•  ìˆ˜ ì—†ìŠµë‹ˆë‹¤.\n");
         return;
     }
 
-    printf("Ãß°¡ÇÒ Á¦¸ñ? ");
+    printf("ì¶”ê°€í•  ì œëª©? ");
     gets_s(songs[*count], sizeof(songs[*count]));
     (*count)++;
-    printf("³ë·¡°¡ Ãß°¡µÇ¾ú½À´Ï´Ù!\n");
+    printf("ë…¸ë˜ê°€ ì¶”ê°€ë˜ì—ˆìŠµë‹ˆë‹¤!\n");
 }
 
 void modifySong(char songs[][40], int count)
 {
     if (count == 0) {
-        printf("¼öÁ¤ÇÒ °îÀÌ ¾ø½À´Ï´Ù.\n");
+        printf("ìˆ˜ì •í•  ê³¡ì´ ì—†ìŠµë‹ˆë‹¤.\n");
         return;
     }
 
     int index;
-    printf("¼öÁ¤ÇÒ °î ¹øÈ£(0 ~ %d)? ", count - 1);
+    printf("ìˆ˜ì •í•  ê³¡ ë²ˆí˜¸(0 ~ %d)? ", count - 1);
     scanf("%d", &index);
     getchar();
 
     if (index < 0 || index >= count) {
-        printf("Àß¸øµÈ ¹øÈ£ÀÔ´Ï´Ù.\n");
+        printf("ì˜ëª»ëœ ë²ˆí˜¸ì…ë‹ˆë‹¤.\n");
         return;
     }
 
-    printf("»õ Á¦¸ñ? ");
+    printf("ìƒˆ ì œëª©? ");
     gets_s(songs[index], sizeof(songs[index]));
-    printf("¼öÁ¤ÀÌ ¿Ï·áµÇ¾ú½À´Ï´Ù!\n");
+    printf("ìˆ˜ì •ì´ ì™„ë£Œë˜ì—ˆìŠµë‹ˆë‹¤!\n");
 }
 
 void printSongs(char songs[][40], int count)
 {
     if (count == 0) {
-        printf("ÀúÀåµÈ ³ë·¡°¡ ¾ø½À´Ï´Ù.\n");
+        printf("ì €ì¥ëœ ë…¸ë˜ê°€ ì—†ìŠµë‹ˆë‹¤.\n");
         return;
     }
 
-    printf("<< ³ë·¡ ¸ñ·Ï >>\n");
+    printf("<< ë…¸ë˜ ëª©ë¡ >>\n");
     for (int i = 0; i < count; i++) {
         printf("%d. %s\n", i, songs[i]);
     }

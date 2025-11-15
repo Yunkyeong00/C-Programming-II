@@ -1,4 +1,12 @@
-﻿#include <stdio.h>
+﻿/*
+학번:202511238
+이름:조윤경
+프로그램 명:
+날짜:
+
+*/
+
+#include <stdio.h>
 #include <string.h>
 
 int main()

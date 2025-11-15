@@ -1,3 +1,10 @@
+ï»¿/*
+í•™ë²ˆ:202511238
+ì´ë¦„:ì¡°ìœ¤ê²½
+í”„ë¡œê·¸ë¨ ëª…:
+ë‚ ì§œ:
+
+*/
 #include <stdio.h>
 #include <string.h>
 
@@ -16,9 +23,9 @@ void input()
 {
 	char str[100];
 	int n;
-	printf("¹®ÀÚ¿­? ");
+	printf("ë¬¸ìì—´? ");
 	gets_s(str, sizeof(str));
-	printf("ÀÌµ¿ÇÒ ±ÛÀÚ ¼ö? ");
+	printf("ì´ë™í•  ê¸€ì ìˆ˜? ");
 	scanf("%d", &n);
 
 	rotate(str, n);
@@ -42,5 +49,5 @@ void rotate(char str[], int n)
 
 	result[len] = '\0';
 
-	printf("È¸ÀüµÈ ¹®ÀÚ¿­: %s\n", result);
+	printf("íšŒì „ëœ ë¬¸ìì—´: %s\n", result);
 }

@@ -1,3 +1,10 @@
+ï»¿/*
+í•™ë²ˆ:202511238
+ì´ë¦„:ì¡°ìœ¤ê²½
+í”„ë¡œê·¸ë¨ ëª…:
+ë‚ ì§œ:
+
+*/
 #include <stdio.h>
 #include <string.h>
 #include <ctype.h>
@@ -16,17 +23,17 @@ int main()
 void input()
 {
 	char str1[100], str2[100];
-	printf("Ã¹ ¹øÂ° ¹®ÀÚ¿­ ? ");
+	printf("ì²« ë²ˆì§¸ ë¬¸ìì—´ ? ");
 	gets_s(str1, sizeof(str1));
-	printf("µÎ ¹øÂ° ¹®ÀÚ¿­ ? ");
+	printf("ë‘ ë²ˆì§¸ ë¬¸ìì—´ ? ");
 	gets_s(str2, sizeof(str2));
 
 	int result=strcmp_ic(str1, str2);
 
 	if(result==0)
-		printf("%s¿Í %s°¡ °°½À´Ï´Ù.", str1, str2);
+		printf("%sì™€ %sê°€ ê°™ìŠµë‹ˆë‹¤.", str1, str2);
 	else
-		printf("%s¿Í %s°¡ °°Áö ¾Ê½À´Ï´Ù.", str1, str2);
+		printf("%sì™€ %sê°€ ê°™ì§€ ì•ŠìŠµë‹ˆë‹¤.", str1, str2);
 
 
 
