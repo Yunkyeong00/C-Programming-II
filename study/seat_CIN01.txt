@@ -1,0 +1,12 @@
+A1 | 0 | CIN01
+A2 | 0 | CIN01
+A3 | 0 | CIN01
+A4 | 0 | CIN01
+B1 | 0 | CIN01
+B2 | 0 | CIN01
+B3 | 0 | CIN01
+B4 | 0 | CIN01
+C1 | 0 | CIN01
+C2 | 0 | CIN01
+C3 | 0 | CIN01
+C4 | 0 | CIN01

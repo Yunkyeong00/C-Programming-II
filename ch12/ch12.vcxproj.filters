@@ -24,5 +24,13 @@
     <ClCompile Include="..\ch11.c\study.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="ui.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ui.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

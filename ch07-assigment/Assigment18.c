@@ -1,14 +1,4 @@
-/*
-ÇÐ¹ø:202511238
-ÀÌ¸§:Á¶À±°æ
-ÇÁ·Î±×·¥ ¸í: ¼öÇÐ¿¡¼­ ÁýÇÕÀº ´ÙÁßÁýÇÕ°ú ´Ù¸£°Ô ¿ø¼ÒÀÇ Áßº¹À» Çã¿ëÇÏÁö ¾Ê´Â´Ù. ÃÖ´ë 10°³ÀÇ
-             Á¤¼öÇü ¿ø¼Ò¸¦ ÀúÀåÇÒ ¼ö ÀÖ´Â ÁýÇÕÀ» ±¸ÇöÇÏ½Ã¿À. Á¤¼ö¸¦ ÀÔ·Â¹Þ¾Æ ÁýÇÕÀÇ ¿ø¼Ò·Î
-			 Ãß°¡ÇÏ°í, ±× ¶§¸¶´Ù ÁýÇÕÀÇ ¿ø¼ÒµéÀ» Ãâ·ÂÇÏ½Ã¿À.
-³¯Â¥:2025-09-21
-
-*/
-
-#define _CRT_SECURE_NO_WARNINGS
+ï»¿#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
 int icandoit();
@@ -29,7 +19,7 @@ int icandoit()
 
     for (i = 0; i < 10; i++)
     {
-        printf("¹è¿­¿¡ Ãß°¡ÇÒ ¿ø¼Ò?");
+        printf("ë°°ì—´ì— ì¶”ê°€í•  ì›ì†Œ?");
         scanf("%d", &test); //
 
         for (j = 0; j < num; j++)
@@ -37,17 +27,17 @@ int icandoit()
             if (arr[j] == test) //
             {
 
-                printf("ÇØ´ç ¿ø¼Ò°¡ ÀÌ¹Ì ÀÎµ¦½º [%d]¿¡ Á¸ÀçÇÕ´Ï´Ù.\n", j);
+                printf("í•´ë‹¹ ì›ì†Œê°€ ì´ë¯¸ ì¸ë±ìŠ¤ [%d]ì— ì¡´ìž¬í•©ë‹ˆë‹¤.\n", j);
                 break;
             }
         }
         if (j == num) {
             arr[num] = test;
             num++;
-        }//
+        }
 
 
-        for (j = 0; j < num; j++)//
+        for (j = 0; j < num; j++)
             printf("%d ", arr[j]);
         printf("\n");
     }
